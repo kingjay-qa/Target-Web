@@ -31,8 +31,12 @@ public class LoginPage extends BasePage {
 	@FindBy (xpath = "(//button[normalize-space()='Sign in or create account'])[1]")
 	WebElement SignIn;
 
-	public void clickSignIn() {
-		SignIn.click();
+	public void clickSignIn(WebDriver driver) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement signInBtn = wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("(//button[normalize-space()='Sign in or create account'])[1]")));
+		signInBtn.click();
+
 	}
 
 	@FindBy(xpath = "//*[@id=\"username\"]")
@@ -53,7 +57,7 @@ public class LoginPage extends BasePage {
 		driver.navigate().to(FileUtilities.readLoginPropertiesFile("production.url"));
 		logger.info("Login page deployed");
 		this.clickAccountButton();
-		this.clickSignIn();
+		this.clickSignIn(driver);
 	}
 
 	@FindBy(xpath = "//*[@id=\"login\"]")
