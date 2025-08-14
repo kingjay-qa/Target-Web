@@ -78,15 +78,28 @@ public class LoginPage extends BasePage {
 	}
 
 	public void loginToApp(WebDriver driver) throws FileNotFoundException, IOException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
 		this.navLogPage(driver);
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
 		this.enterEmail(FileUtilities.readLoginPropertiesFile("valid.username"));
 		logger.info("Email entered");
+
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("login")));
 		this.clickContinueButton();
 		logger.info("Continue button clicked");
+
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("password"))); // This is reused for click
 		this.clickUsePassword();
 		logger.info("Use password clicked");
+
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("password")));
 		this.enterPassword(FileUtilities.readLoginPropertiesFile("valid.password"));
 		logger.info("Password entered");
+
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//*[@id=\"__next\"]/div/div/div/div[1]/div/div[2]/button")));
 		this.clickSignInWithPass();
 		logger.info("Sign in with password clicked");
 	}
