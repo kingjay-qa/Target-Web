@@ -14,23 +14,19 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Run LoginTest') {
             steps {
-                script {
-                    // Run only the LoginTest class
-                    sh 'mvn test -Dtest=TestsCase.LoginTest'
-                }
+                bat 'mvn test'
             }
         }
     }
 
     post {
         always {
-            // Collects test results for reporting
             junit '**/target/surefire-reports/*.xml'
         }
         failure {

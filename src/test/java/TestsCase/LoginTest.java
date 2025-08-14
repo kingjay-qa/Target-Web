@@ -16,7 +16,7 @@ import Pages.LoginPage;
 public class LoginTest extends BaseTest {
 
 	@Test
-	public void TC_01SuccessfulLogin() throws FileNotFoundException, IOException, InterruptedException {
+	public void testLogin() throws FileNotFoundException, IOException, InterruptedException {
 		WebDriver driver = getBrowser();
 		logger.info("Browser instance launched");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
