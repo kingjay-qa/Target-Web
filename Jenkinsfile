@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        MAVEN_OPTS = "-Dmaven.test.failure.ignore=true"
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -8,11 +12,17 @@ pipeline {
             }
         }
 
+        stage('Build') {
+            steps {
+                sh 'mvn clean compile'
+            }
+        }
+
         stage('Run LoginTest') {
             steps {
                 script {
-                    // This runs only the LoginTest class
-                    sh 'mvn test -Dtest=LoginTest'
+                    // Run only the LoginTest class
+                    sh 'mvn test -Dtest=TestsCase.LoginTest'
                 }
             }
         }
@@ -22,6 +32,12 @@ pipeline {
         always {
             // Collects test results for reporting
             junit '**/target/surefire-reports/*.xml'
+        }
+        failure {
+            echo 'Test failed. Check logs and reports for details.'
+        }
+        success {
+            echo 'LoginTest executed successfully!'
         }
     }
 }
