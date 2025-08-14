@@ -1,0 +1,38 @@
+2024-10-13-19:42:44 INFO  Browser instance launched
+2024-10-13-19:42:44 INFO  Browser instance launched
+2024-10-13-19:42:45 INFO  Browser instance launched
+2024-10-13-19:43:00 INFO  Login page deployed
+2024-10-13-19:43:01 INFO  HomePage popups have been cleared
+2024-10-13-19:43:01 INFO  Sign in Header is visible.
+2024-10-13-19:43:02 INFO  All 3 social login in buttons are visible.
+2024-10-13-19:43:02 INFO  Login page deployed
+2024-10-13-19:43:02 INFO  Email and password field are both displayed on the login page.
+2024-10-13-19:43:02 INFO  Sign in Button is displayed.
+2024-10-13-19:43:02 INFO  Join prompt is displayed.
+2024-10-13-19:43:02 INFO  Join Button is displayed.
+2024-10-13-19:43:02 INFO  HomePage popups have been cleared
+2024-10-13-19:43:03 INFO  Email entered
+2024-10-13-19:43:04 INFO  Password entered
+2024-10-13-19:43:04 INFO  Login buttin clicked
+2024-10-13-19:43:04 INFO  Login error is displayed.
+2024-10-13-19:43:05 INFO  credentials are not valid
+2024-10-13-19:43:07 INFO  Login page deployed
+2024-10-13-19:43:09 INFO  Browser instance launched
+2024-10-13-19:43:09 INFO  HomePage popups have been cleared
+2024-10-13-19:43:10 INFO  Email entered
+2024-10-13-19:43:10 INFO  Password entered
+2024-10-13-19:43:10 INFO  Login buttin clicked
+2024-10-13-19:43:10 INFO  enter a valid email address.
+enter a valid password.
+2024-10-13-19:43:13 INFO  Browser instance launched
+2024-10-13-19:43:27 INFO  Login page deployed
+2024-10-13-19:43:27 INFO  Login page deployed
+2024-10-13-19:43:28 INFO  HomePage popups have been cleared
+2024-10-13-19:43:28 INFO  HomePage popups have been cleared
+2024-10-13-19:43:29 INFO  Email entered
+2024-10-13-19:43:29 INFO  forgot password?
+2024-10-13-19:43:29 INFO  Enter the email address you used when you joined and we'll send you instructions to reset your password.
+2024-10-13-19:43:29 INFO  Password entered
+2024-10-13-19:43:29 INFO  Login buttin clicked
+2024-10-13-19:43:29 INFO  Submit Button has been clicked
+2024-10-13-19:43:29 INFO  Check your email for steps to reset password

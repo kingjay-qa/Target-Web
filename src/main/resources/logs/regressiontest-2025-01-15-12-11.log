@@ -1,0 +1,50 @@
+2025-01-15-12:11:53 INFO  Browser instance launched
+2025-01-15-12:11:56 INFO  Login page deployed
+2025-01-15-12:12:03 INFO  HomePage popups have been cleared
+2025-01-15-12:12:03 INFO  Email entered
+2025-01-15-12:12:03 INFO  Password entered
+2025-01-15-12:12:04 INFO  Login buttin clicked
+2025-01-15-12:12:04 INFO  Grocery Store | Quality Products Low Prices | Lidl US
+2025-01-15-12:12:08 INFO  Browser instance launched
+2025-01-15-12:12:17 INFO  Login page deployed
+2025-01-15-12:12:18 INFO  HomePage popups have been cleared
+2025-01-15-12:12:18 INFO  Email entered
+2025-01-15-12:12:18 INFO  Password entered
+2025-01-15-12:12:18 INFO  Login buttin clicked
+2025-01-15-12:12:19 INFO  Login error is displayed.
+2025-01-15-12:12:19 INFO  credentials are not valid
+2025-01-15-12:13:02 INFO  Browser instance launched
+2025-01-15-12:13:10 INFO  Login page deployed
+2025-01-15-12:13:11 INFO  HomePage popups have been cleared
+2025-01-15-12:13:11 INFO  Email entered
+2025-01-15-12:13:11 INFO  Password entered
+2025-01-15-12:13:11 INFO  Login buttin clicked
+2025-01-15-12:13:11 INFO  enter a valid email address.
+enter a valid password.
+2025-01-15-12:13:14 INFO  Browser instance launched
+2025-01-15-12:13:21 INFO  Login page deployed
+2025-01-15-12:13:22 INFO  HomePage popups have been cleared
+2025-01-15-12:13:22 INFO  forgot password?
+2025-01-15-12:13:22 INFO  Enter the email address you used when you joined and we'll send you instructions to reset your password.
+2025-01-15-12:13:23 INFO  Submit Button has been clicked
+2025-01-15-12:13:23 INFO  Check your email for steps to reset password
+2025-01-15-12:13:25 INFO  Browser instance launched
+2025-01-15-12:13:28 INFO  Browser instance launched
+2025-01-15-12:13:35 INFO  Login page deployed
+2025-01-15-12:13:36 INFO  HomePage popups have been cleared
+2025-01-15-12:13:36 INFO  Facebook login option selected.
+2025-01-15-12:13:40 INFO  Email entered
+2025-01-15-12:13:40 INFO  Password entered
+2025-01-15-12:13:40 INFO  Log in Button clicked
+2025-01-15-12:14:04 INFO  Login successful. Success element visible.
+2025-01-15-12:14:04 INFO  We made it this far
+2025-01-15-12:14:04 INFO  Grocery Store | Quality Products Low Prices | Lidl US
+2025-01-15-12:14:08 INFO  Browser instance launched
+2025-01-15-12:14:11 INFO  Login page deployed
+2025-01-15-12:14:17 INFO  HomePage popups have been cleared
+2025-01-15-12:14:17 INFO  Facebook login option selected.
+2025-01-15-12:14:19 INFO  Email entered
+2025-01-15-12:14:19 INFO  Password entered
+2025-01-15-12:14:19 INFO  Log in Button clicked
+2025-01-15-12:14:43 INFO  Browser instance launched
+2025-01-15-12:14:52 INFO  Login page deployed

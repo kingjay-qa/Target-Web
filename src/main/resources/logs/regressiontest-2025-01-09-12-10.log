@@ -1,0 +1,45 @@
+2025-01-09-12:10:22 INFO  Browser instance launched
+2025-01-09-12:10:25 INFO  Login page deployed
+2025-01-09-12:10:33 INFO  HomePage popups have been cleared
+2025-01-09-12:10:33 INFO  Sign in Header is visible.
+2025-01-09-12:10:33 INFO  All 3 social login in buttons are visible.
+2025-01-09-12:10:33 INFO  Email and password field are both displayed on the login page.
+2025-01-09-12:10:33 INFO  Sign in Button is displayed.
+2025-01-09-12:10:33 INFO  Join prompt is displayed.
+2025-01-09-12:10:33 INFO  Join Button is displayed.
+2025-01-09-12:10:36 INFO  Browser instance launched
+2025-01-09-12:10:38 INFO  Login page deployed
+2025-01-09-12:10:46 INFO  HomePage popups have been cleared
+2025-01-09-12:10:46 INFO  Email entered
+2025-01-09-12:10:46 INFO  Password entered
+2025-01-09-12:10:46 INFO  Login buttin clicked
+2025-01-09-12:10:47 INFO  Login error is displayed.
+2025-01-09-12:10:47 INFO  credentials are not valid
+2025-01-09-12:10:53 INFO  Browser instance launched
+2025-01-09-12:11:04 INFO  Login page deployed
+2025-01-09-12:11:05 INFO  HomePage popups have been cleared
+2025-01-09-12:11:05 INFO  Email entered
+2025-01-09-12:11:05 INFO  Password entered
+2025-01-09-12:11:05 INFO  Login buttin clicked
+2025-01-09-12:11:06 INFO  enter a valid email address.
+enter a valid password.
+2025-01-09-12:11:12 INFO  Browser instance launched
+2025-01-09-12:11:16 INFO  Login page deployed
+2025-01-09-12:11:22 INFO  HomePage popups have been cleared
+2025-01-09-12:11:23 INFO  Email entered
+2025-01-09-12:11:23 INFO  Password entered
+2025-01-09-12:11:23 INFO  Login buttin clicked
+2025-01-09-12:11:25 INFO  Browser instance launched
+2025-01-09-12:11:34 INFO  Login page deployed
+2025-01-09-12:11:35 INFO  HomePage popups have been cleared
+2025-01-09-12:11:35 INFO  forgot password?
+2025-01-09-12:11:35 INFO  Enter the email address you used when you joined and we'll send you instructions to reset your password.
+2025-01-09-12:11:35 INFO  Submit Button has been clicked
+2025-01-09-12:11:35 INFO  Check your email for steps to reset password
+2025-01-09-12:11:38 INFO  Browser instance launched
+2025-01-09-12:11:47 INFO  Login page deployed
+2025-01-09-12:11:47 INFO  HomePage popups have been cleared
+2025-01-09-12:11:48 INFO  Facebook login option selected.
+2025-01-09-12:11:49 INFO  Email entered
+2025-01-09-12:11:49 INFO  Password entered
+2025-01-09-12:11:49 INFO  Log in Button clicked

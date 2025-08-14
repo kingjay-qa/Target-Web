@@ -1,0 +1,7 @@
+2024-10-13-18:19:55 INFO  Browser instance launched
+2024-10-13-18:20:02 INFO  Login page deployed
+2024-10-13-18:20:03 INFO  HomePage popups have been cleared
+2024-10-13-18:20:04 INFO  Join Button Clicked
+2024-10-13-18:20:04 INFO  Join page title is displlayed
+2024-10-13-18:20:04 INFO  join - myLidl
+2024-10-13-18:20:04 INFO  The following fields are displayed: FirstName, LastName, email, confirm email, password, phone, zipcode, birthday, address line, city, state

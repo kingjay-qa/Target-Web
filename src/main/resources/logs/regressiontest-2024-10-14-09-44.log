@@ -1,0 +1,17 @@
+2024-10-14-09:44:10 INFO  Browser instance launched
+2024-10-14-09:44:18 INFO  Login page deployed
+2024-10-14-09:44:19 INFO  HomePage popups have been cleared
+2024-10-14-09:44:19 INFO  Sign in Header is visible.
+2024-10-14-09:44:19 INFO  All 3 social login in buttons are visible.
+2024-10-14-09:44:19 INFO  Email and password field are both displayed on the login page.
+2024-10-14-09:44:19 INFO  Sign in Button is displayed.
+2024-10-14-09:44:19 INFO  Join prompt is displayed.
+2024-10-14-09:44:19 INFO  Join Button is displayed.
+2024-10-14-09:44:37 INFO  Browser instance launched
+2024-10-14-09:44:45 INFO  Login page deployed
+2024-10-14-09:44:45 INFO  HomePage popups have been cleared
+2024-10-14-09:44:45 INFO  Email entered
+2024-10-14-09:44:45 INFO  Password entered
+2024-10-14-09:44:46 INFO  Login buttin clicked
+2024-10-14-09:44:46 INFO  Login error is displayed.
+2024-10-14-09:44:46 INFO  credentials are not valid

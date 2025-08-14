@@ -1,0 +1,40 @@
+2025-01-09-12:02:04 INFO  Browser instance launched
+2025-01-09-12:02:13 INFO  Login page deployed
+2025-01-09-12:02:14 INFO  HomePage popups have been cleared
+2025-01-09-12:02:14 INFO  Sign in Header is visible.
+2025-01-09-12:02:14 INFO  All 3 social login in buttons are visible.
+2025-01-09-12:02:14 INFO  Email and password field are both displayed on the login page.
+2025-01-09-12:02:14 INFO  Sign in Button is displayed.
+2025-01-09-12:02:14 INFO  Join prompt is displayed.
+2025-01-09-12:02:14 INFO  Join Button is displayed.
+2025-01-09-12:02:17 INFO  Browser instance launched
+2025-01-09-12:02:20 INFO  Login page deployed
+2025-01-09-12:02:27 INFO  HomePage popups have been cleared
+2025-01-09-12:02:27 INFO  Email entered
+2025-01-09-12:02:27 INFO  Password entered
+2025-01-09-12:02:28 INFO  Login buttin clicked
+2025-01-09-12:02:28 INFO  Login error is displayed.
+2025-01-09-12:02:28 INFO  credentials are not valid
+2025-01-09-12:02:34 INFO  Browser instance launched
+2025-01-09-12:02:43 INFO  Login page deployed
+2025-01-09-12:02:44 INFO  HomePage popups have been cleared
+2025-01-09-12:02:44 INFO  Email entered
+2025-01-09-12:02:44 INFO  Password entered
+2025-01-09-12:02:44 INFO  Login buttin clicked
+2025-01-09-12:02:44 INFO  enter a valid email address.
+enter a valid password.
+2025-01-09-12:02:50 INFO  Browser instance launched
+2025-01-09-12:02:59 INFO  Login page deployed
+2025-01-09-12:03:00 INFO  HomePage popups have been cleared
+2025-01-09-12:03:00 INFO  Email entered
+2025-01-09-12:03:01 INFO  Password entered
+2025-01-09-12:03:01 INFO  Login buttin clicked
+2025-01-09-12:03:03 INFO  Browser instance launched
+2025-01-09-12:03:10 INFO  Login page deployed
+2025-01-09-12:03:15 INFO  Browser instance launched
+2025-01-09-12:03:24 INFO  Login page deployed
+2025-01-09-12:03:24 INFO  HomePage popups have been cleared
+2025-01-09-12:03:25 INFO  Facebook login option selected.
+2025-01-09-12:03:26 INFO  Email entered
+2025-01-09-12:03:27 INFO  Password entered
+2025-01-09-12:03:27 INFO  Log in Button clicked

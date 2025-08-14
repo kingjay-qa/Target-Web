@@ -1,0 +1,30 @@
+2025-08-12-14:25:06 INFO  Browser instance launched
+2025-08-12-14:25:14 INFO  Login page deployed
+2025-08-12-14:25:18 INFO  HomePage popups have been cleared
+2025-08-12-14:25:18 INFO  Email entered
+2025-08-12-14:25:19 INFO  Password entered
+2025-08-12-14:25:19 INFO  Login buttin clicked
+2025-08-12-14:25:19 INFO  Grocery Store | Quality Products Low Prices | Lidl US
+2025-08-12-14:25:21 INFO  Browser instance launched
+2025-08-12-14:25:31 INFO  Login page deployed
+2025-08-12-14:25:35 INFO  HomePage popups have been cleared
+2025-08-12-14:25:36 INFO  Email entered
+2025-08-12-14:25:36 INFO  Password entered
+2025-08-12-14:25:36 INFO  Login buttin clicked
+2025-08-12-14:25:39 INFO  Login error is displayed.
+2025-08-12-14:25:39 INFO  credentials are not valid
+2025-08-12-14:25:43 INFO  Browser instance launched
+2025-08-12-14:26:04 INFO  Login page deployed
+2025-08-12-14:26:08 INFO  HomePage popups have been cleared
+2025-08-12-14:26:08 INFO  Email entered
+2025-08-12-14:26:08 INFO  Password entered
+2025-08-12-14:26:08 INFO  Login buttin clicked
+2025-08-12-14:26:08 INFO  enter a valid email address.
+enter a valid password.
+2025-08-12-14:26:14 INFO  Browser instance launched
+2025-08-12-14:26:25 INFO  Login page deployed
+2025-08-12-14:26:28 INFO  HomePage popups have been cleared
+2025-08-12-14:26:29 INFO  forgot password?
+2025-08-12-14:26:30 INFO  Enter the email address you used when you joined and we'll send you instructions to reset your password.
+2025-08-12-14:26:31 INFO  Submit Button has been clicked
+2025-08-12-14:26:31 INFO  Check your email for steps to reset password

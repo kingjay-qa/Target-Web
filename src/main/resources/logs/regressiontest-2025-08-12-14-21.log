@@ -1,0 +1,44 @@
+2025-08-12-14:21:30 INFO  Browser instance launched
+2025-08-12-14:21:45 INFO  Login page deployed
+2025-08-12-14:21:49 INFO  HomePage popups have been cleared
+2025-08-12-14:21:49 INFO  Email entered
+2025-08-12-14:21:50 INFO  Password entered
+2025-08-12-14:21:50 INFO  Login buttin clicked
+2025-08-12-14:21:50 INFO  Grocery Store | Quality Products Low Prices | Lidl US
+2025-08-12-14:21:53 INFO  Browser instance launched
+2025-08-12-14:22:03 INFO  Login page deployed
+2025-08-12-14:22:07 INFO  HomePage popups have been cleared
+2025-08-12-14:22:07 INFO  Email entered
+2025-08-12-14:22:07 INFO  Password entered
+2025-08-12-14:22:07 INFO  Login buttin clicked
+2025-08-12-14:22:10 INFO  Login error is displayed.
+2025-08-12-14:22:10 INFO  credentials are not valid
+2025-08-12-14:22:12 INFO  Browser instance launched
+2025-08-12-14:22:25 INFO  Login page deployed
+2025-08-12-14:22:29 INFO  HomePage popups have been cleared
+2025-08-12-14:22:29 INFO  Email entered
+2025-08-12-14:22:29 INFO  Password entered
+2025-08-12-14:22:29 INFO  Login buttin clicked
+2025-08-12-14:22:29 INFO  enter a valid email address.
+enter a valid password.
+2025-08-12-14:22:32 INFO  Browser instance launched
+2025-08-12-14:22:41 INFO  Login page deployed
+2025-08-12-14:22:44 INFO  HomePage popups have been cleared
+2025-08-12-14:22:45 INFO  forgot password?
+2025-08-12-14:22:45 INFO  Enter the email address you used when you joined and we'll send you instructions to reset your password.
+2025-08-12-14:22:45 INFO  Submit Button has been clicked
+2025-08-12-14:22:45 INFO  Check your email for steps to reset password
+2025-08-12-14:22:48 INFO  Browser instance launched
+2025-08-12-14:22:50 INFO  Login page deployed
+2025-08-12-14:23:00 INFO  HomePage popups have been cleared
+2025-08-12-14:23:00 INFO  Apple login option selected.
+2025-08-12-14:23:03 INFO  Email entered
+2025-08-12-14:23:05 INFO  Password entered
+2025-08-12-14:23:05 INFO  Log in Button clicked
+2025-08-12-14:23:28 INFO  Browser instance launched
+2025-08-12-14:23:36 INFO  Login page deployed
+2025-08-12-14:23:40 INFO  HomePage popups have been cleared
+2025-08-12-14:23:40 INFO  Facebook login option selected.
+2025-08-12-14:23:45 INFO  Email entered
+2025-08-12-14:23:45 INFO  Password entered
+2025-08-12-14:23:45 INFO  Log in Button clicked
