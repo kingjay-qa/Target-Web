@@ -16,7 +16,7 @@ import Pages.LoginPage;
 public class LoginTest extends BaseTest {
 
 	@Test
-	public void testLogin() throws FileNotFoundException, IOException, InterruptedException {
+	public void testLogin() throws FileNotFoundException, IOException {
 		WebDriver driver = getBrowser();
 		logger.info("Browser instance launched");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -24,7 +24,6 @@ public class LoginTest extends BaseTest {
 		LoginPage lp = new LoginPage(driver);
 
 		lp.loginToApp(driver);
-		Thread.sleep(2000);
 		logger.info(driver.getTitle());
 		System.out.println("The first testcase is complete");
 	}

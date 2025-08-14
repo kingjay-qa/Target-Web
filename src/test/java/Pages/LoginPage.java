@@ -28,7 +28,7 @@ public class LoginPage extends BasePage {
 		AccountButton.click();
 	}
 
-	@FindBy (xpath = "/html/body/div[9]/div/div/div[2]/ul/div/button")
+	@FindBy (xpath = "(//button[normalize-space()='Sign in or create account'])[1]")
 	WebElement SignIn;
 
 	public void clickSignIn() {
