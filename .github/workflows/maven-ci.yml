@@ -1,0 +1,41 @@
+name: Target Web Automation CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Inject Secrets into Properties File
+      run: |
+        mkdir -p src/test/java/TestCredentials
+        cat <<EOF > src/test/java/TestCredentials/logintestdata.properties
+        valid.username=${{ secrets.TARGET_USERNAME }}
+        valid.password=${{ secrets.TARGET_PASSWORD }}
+        EOF
+
+    - name: Run Selenium Tests via Maven
+      run: mvn clean test
+
+    - name: Upload Test Results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: surefire-reports
+        path: target/surefire-reports/

@@ -1,4 +1,4 @@
- package TestsCase;
+package TestsCase;
 
 import java.lang.reflect.Method;
 import java.time.Duration;
@@ -45,13 +45,12 @@ public class BaseTest {
 		String browser = browserName.toLowerCase();
 		switch (browser) {
 		case "chrome":
-			if (headless) {
-				ChromeOptions co = new ChromeOptions();
-				co.addArguments("--headless");
-				driver = new ChromeDriver(co);
-			} else {
-				driver = new ChromeDriver();
-			}
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless=new");
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--window-size=1920,1080");
+			driver = new ChromeDriver(options);
 			break;
 		case "safari":
 			driver = new SafariDriver();
@@ -84,7 +83,7 @@ public class BaseTest {
 	@BeforeMethod( alwaysRun = true)
 	public void setup(@Optional("chrome") String browserName, Method name) {
 		test.set(extent.createTest(name.getName()));
-		setDriver(browserName, false);
+		setDriver(browserName, true);
 		WebDriver driver = getBrowser();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
