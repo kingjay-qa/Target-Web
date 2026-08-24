@@ -21,7 +21,7 @@ public class LoginPage extends BasePage {
 		super(driver);
 	}
 
-	@FindBy (xpath = "//*[@id='account-sign-in']/span")
+	@FindBy (xpath = "/html/body/div[1]/div[2]/div[2]/nav/div/div[1]/div[6]/div/div/button")
 	WebElement AccountButton;
 
 	public void clickAccountButton() {
@@ -33,9 +33,9 @@ public class LoginPage extends BasePage {
 
 	public void clickSignIn(WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement signInBtn = wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("(//button[normalize-space()='Sign in or create account'])[1]")));
-		signInBtn.click();
+	//	WebElement signInBtn = wait.until(ExpectedConditions
+	//			.elementToBeClickable(By.xpath("(//button[normalize-space()='Sign in or create account'])[1]")));
+	//	signInBtn.click();
 
 	}
 
@@ -43,6 +43,7 @@ public class LoginPage extends BasePage {
 	WebElement enterEmail;
 
 	public void enterEmail(String username) {
+		enterEmail.click();
 		this.enterEmail.sendKeys(username);
 	}
 
@@ -54,7 +55,11 @@ public class LoginPage extends BasePage {
 	}
 
 	public void navLogPage(WebDriver driver) throws FileNotFoundException, IOException {
-		driver.navigate().to(FileUtilities.readLoginPropertiesFile("production.url"));
+		String productionUrl = FileUtilities.readLoginPropertiesFile("production.url");
+		if (productionUrl == null || productionUrl.trim().isEmpty()) {
+			throw new IllegalStateException("Missing production.url in logintestdata.properties");
+		}
+		driver.navigate().to(productionUrl);
 		logger.info("Login page deployed");
 		this.clickAccountButton();
 		this.clickSignIn(driver);
@@ -87,7 +92,11 @@ public class LoginPage extends BasePage {
 		this.navLogPage(driver);
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
-		this.enterEmail(FileUtilities.readLoginPropertiesFile("valid.username"));
+		String username = FileUtilities.readLoginPropertiesFile("valid.username");
+		if (username == null || username.trim().isEmpty()) {
+			throw new IllegalStateException("Missing valid.username in logintestdata.properties");
+		}
+		this.enterEmail(username);
 		logger.info("Email entered");
 
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("login")));
@@ -99,11 +108,15 @@ public class LoginPage extends BasePage {
 		logger.info("Use password clicked");
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("password")));
-		this.enterPassword(FileUtilities.readLoginPropertiesFile("valid.password"));
+		String password = FileUtilities.readLoginPropertiesFile("valid.password");
+		if (password == null || password.trim().isEmpty()) {
+			throw new IllegalStateException("Missing valid.password in logintestdata.properties");
+		}
+		this.enterPassword(password);
 		logger.info("Password entered");
 
 		wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("//*[@id=\"__next\"]/div/div/div/div[1]/div/div[2]/button")));
+				.elementToBeClickable(By.xpath("/html/body/div[1]/div/div/div/div/div/div[2]/form/button")));
 		this.clickSignInWithPass();
 		logger.info("Sign in with password clicked");
 	}

@@ -18,6 +18,9 @@ public class LoginTest extends BaseTest {
 	@Test
 	public void testLogin() throws FileNotFoundException, IOException {
 		WebDriver driver = getBrowser();
+		if (driver == null) {
+			throw new IllegalStateException("WebDriver was not initialized in @BeforeMethod");
+		}
 		logger.info("Browser instance launched");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();

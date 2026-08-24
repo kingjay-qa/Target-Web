@@ -32,7 +32,7 @@ public class BaseTest {
 	public static Logger logger = LogManager.getLogger("BaseTest");
 	
 	public void setDriver(String browserName, boolean headless) {
-		WebDriver driver = getDriver(browserName, false);
+		WebDriver driver = getDriver(browserName, headless);
 		threadLocalDriver.set(driver);
 	}
 
@@ -46,7 +46,7 @@ public class BaseTest {
 		switch (browser) {
 		case "chrome":
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless=new");
+		//	options.addArguments("--headless=new");
 			options.addArguments("--no-sandbox");
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--window-size=1920,1080");
@@ -83,7 +83,7 @@ public class BaseTest {
 	@BeforeMethod( alwaysRun = true)
 	public void setup(@Optional("chrome") String browserName, Method name) {
 		test.set(extent.createTest(name.getName()));
-		setDriver(browserName, true);
+		setDriver(browserName, false);
 		WebDriver driver = getBrowser();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
