@@ -24,8 +24,8 @@ jobs:
 
     - name: Inject Secrets into Properties File
       run: |
-        mkdir -p src/test/java/TestCredentials
-        cat <<EOF > src/test/java/TestCredentials/logintestdata.properties
+        cat <<EOF > src/test/resources/logintestdata.properties
+        production.url=https://www.target.com/
         valid.username=${{ secrets.TARGET_USERNAME }}
         valid.password=${{ secrets.TARGET_PASSWORD }}
         EOF
