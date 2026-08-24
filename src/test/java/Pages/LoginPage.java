@@ -79,7 +79,7 @@ public class LoginPage extends BasePage {
 		this.enterPassword.sendKeys(password);
 	}
 
-	@FindBy(xpath = "//*[@id=\"__next\"]/div/div/div/div[1]/div/div[2]/button")
+	@FindBy(xpath = "/html/body/div[1]/div/div/div/div/div/div[2]/form/button")
 	WebElement SignInWithPass;
 
 	public void clickSignInWithPass() {
